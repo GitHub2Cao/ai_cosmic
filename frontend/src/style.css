@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand variables */
+@layer base {
+  :root {
+    --brand-primary: #e5572a;
+    --brand-secondary: #ff6b4a;
+    --brand-accent: #c4451f;
+  }
+}
+
+/* Base utilities */
+@layer utilities {
+  .gradient-btn {
+    @apply bg-gradient-to-br from-brand-primary to-brand-secondary text-white font-semibold transition-all duration-200;
+  }
+  .gradient-btn:hover {
+    @apply -translate-y-px shadow-lg;
+    box-shadow: 0 4px 15px rgba(229, 87, 42, 0.3);
+  }
+}
+
+/* Scrollbar thin */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
