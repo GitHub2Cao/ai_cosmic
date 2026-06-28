@@ -47,8 +47,8 @@ async function handleLogin() {
       <!-- 左侧品牌区域 -->
       <div class="flex-1 flex flex-col justify-center pr-15">
         <div class="flex items-baseline gap-2.5 mb-12">
-          <span class="text-xl font-bold text-brand-primary">彩讯股份</span>
-          <span class="text-[13px] text-slate-400 tracking-widest">RICHINFO</span>
+          <span class="text-xl font-bold text-brand-primary">cgm股份</span>
+          <span class="text-[13px] text-slate-400 tracking-widest">CGM</span>
         </div>
 
         <h1 class="text-4xl font-bold text-cosmic-dark mb-6 leading-tight">

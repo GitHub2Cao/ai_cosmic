@@ -98,7 +98,7 @@ onMounted(async () => {
             </svg>
           </div>
           <p class="text-cosmic-muted mb-4">
-            COSMIC 是彩讯股份基于大模型构建的智能文档转换平台，支持需求文档 → COSMIC → SRS 的全流程转换。
+            COSMIC 是cgm股份基于大模型构建的智能文档转换平台，支持需求文档 → COSMIC → SRS 的全流程转换。
           </p>
           <button
             @click="router.push('/projects')"

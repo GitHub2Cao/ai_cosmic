@@ -29,8 +29,8 @@ function isActive(itemPath) {
     <div class="max-w-[1280px] mx-auto px-6 h-14 flex items-center justify-between">
       <!-- Logo -->
       <div class="flex items-baseline gap-2 cursor-pointer" @click="router.push('/dashboard')">
-        <span class="text-lg font-bold text-brand-primary">彩讯股份</span>
-        <span class="text-xs text-slate-400 tracking-widest">RICHINFO</span>
+        <span class="text-lg font-bold text-brand-primary">cgm股份</span>
+        <span class="text-xs text-slate-400 tracking-widest">CGM</span>
       </div>
 
       <!-- Nav Links -->
